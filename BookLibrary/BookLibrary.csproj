@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Bruger\source\repos\BookLibrary\BookLibrary\BookLibrary.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\Bruger\source\repos\BookLibrary\BookLibrary\BookLibrary.xml</DocumentationFile>
+    <OutputPath>bin\Debug\net5.0\ref\</OutputPath>
+  </PropertyGroup>
+
+</Project>
