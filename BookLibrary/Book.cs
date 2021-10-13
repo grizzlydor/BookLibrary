@@ -19,7 +19,7 @@ namespace BookLibrary
         /// <summary>
         /// An unique identifier of the book
         /// </summary>
-        public int ISBN13 { get; set; }
+        public string ISBN13 { get; set; }
         
         public Book()
         {
